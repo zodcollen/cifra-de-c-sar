@@ -1,19 +1,19 @@
 Projeto Forum Unidade 1 - Cadastro de Alunos 🎓
 
-Este é um projeto Java Web simples desenvolvido como parte de uma atividade acadêmica. Ele permite o cadastro de alunos através de uma interface web e exibe a lista de alunos cadastrados em tempo real na mesma página.
+- Este é um projeto Java Web simples desenvolvido como parte de uma atividade acadêmica. Ele permite o cadastro de alunos através de uma interface web e exibe a lista de alunos cadastrados em tempo real na mesma página.
 
-Tecnologias Utilizadas
-Java 11: Linguagem de programação principal.
+**Tecnologias Utilizadas**
+- Java 11: Linguagem de programação principal.
 
-Jakarta Servlet: Para o controle das requisições e lógica de back-end.
+- Jakarta Servlet: Para o controle das requisições e lógica de back-end.
 
-JSP (JavaServer Pages): Para a criação da interface dinâmica.
+- JSP (JavaServer Pages): Para a criação da interface dinâmica.
 
-Apache Tomcat v11.0: Servidor de aplicações para rodar o projeto.
+- Apache Tomcat v11.0: Servidor de aplicações para rodar o projeto.
 
-Eclipse IDE: Ambiente de desenvolvimento utilizado.
+- Eclipse IDE: Ambiente de desenvolvimento utilizado.
 
-Funcionalidades
+**Funcionalidades**
 Formulário de Cadastro: Captura o nome, sexo e semestre do aluno.
 
 Processamento de Dados: Um Servlet recebe os dados, cria um objeto Aluno e o adiciona a uma lista.
@@ -22,14 +22,14 @@ Exibição Dinâmica: A tabela na página principal (index.jsp) é atualizada au
 
 Persistência em Memória: Os dados são armazenados durante a sessão da aplicação.
 
-Estrutura do Projeto
+**Estrutura do Projeto**
 src/br/catolica/dominio/Aluno.java: Classe de modelo (POJO) que representa o aluno.
 
 src/br/catolica/CadastrarAlunoServlet.java: Controlador que gerencia o fluxo de cadastro e redirecionamento.
 
 WebContent/index.jsp: Página principal contendo o formulário e a tabela de resultados.
 
-Como rodar o projeto
+**Como rodar o projeto**
 Faça o clone do repositório.
 
 Importe o projeto no Eclipse IDE (como um Existing Project).
