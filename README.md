@@ -1,4 +1,5 @@
 Projeto Forum Unidade 1 - Cadastro de Alunos 🎓
+
 Este é um projeto Java Web simples desenvolvido como parte de uma atividade acadêmica. Ele permite o cadastro de alunos através de uma interface web e exibe a lista de alunos cadastrados em tempo real na mesma página.
 
 Tecnologias Utilizadas
