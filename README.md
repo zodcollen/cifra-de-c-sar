@@ -14,6 +14,7 @@ Projeto Forum Unidade 1 - Cadastro de Alunos 🎓
 - Eclipse IDE: Ambiente de desenvolvimento utilizado.
 
 **Funcionalidades**
+
 Formulário de Cadastro: Captura o nome, sexo e semestre do aluno.
 
 Processamento de Dados: Um Servlet recebe os dados, cria um objeto Aluno e o adiciona a uma lista.
@@ -23,6 +24,7 @@ Exibição Dinâmica: A tabela na página principal (index.jsp) é atualizada au
 Persistência em Memória: Os dados são armazenados durante a sessão da aplicação.
 
 **Estrutura do Projeto**
+
 src/br/catolica/dominio/Aluno.java: Classe de modelo (POJO) que representa o aluno.
 
 src/br/catolica/CadastrarAlunoServlet.java: Controlador que gerencia o fluxo de cadastro e redirecionamento.
@@ -30,6 +32,7 @@ src/br/catolica/CadastrarAlunoServlet.java: Controlador que gerencia o fluxo de 
 WebContent/index.jsp: Página principal contendo o formulário e a tabela de resultados.
 
 **Como rodar o projeto**
+
 Faça o clone do repositório.
 
 Importe o projeto no Eclipse IDE (como um Existing Project).
